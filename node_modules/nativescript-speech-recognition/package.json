@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-speech-recognition",
+        "scope": null,
+        "escapedName": "nativescript-speech-recognition",
+        "name": "nativescript-speech-recognition",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Padmapriya/work/spring2017/apps/Groceries"
+    ]
+  ],
+  "_from": "nativescript-speech-recognition@latest",
+  "_id": "nativescript-speech-recognition@1.1.0",
+  "_inCache": true,
+  "_location": "/nativescript-speech-recognition",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-speech-recognition-1.1.0.tgz_1487092466340_0.1133373798802495"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-speech-recognition",
+    "scope": null,
+    "escapedName": "nativescript-speech-recognition",
+    "name": "nativescript-speech-recognition",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-speech-recognition/-/nativescript-speech-recognition-1.1.0.tgz",
+  "_shasum": "b6870e90be11bf8ed695003b63b7f0b2ca0a4dea",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-speech-recognition",
+  "_where": "/Users/Padmapriya/work/spring2017/apps/Groceries",
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/EddyVerbruggen/nativescript-speech-recognition/issues"
+  },
+  "dependencies": {},
+  "description": "Speech to text plugin, leveraging iOS and Android's built-in recognition engines.",
+  "devDependencies": {
+    "prompt": "^1.0.0",
+    "rimraf": "^2.5.0",
+    "tns-core-modules": "^2.5.0",
+    "tns-platform-declarations": "^2.5.0",
+    "typescript": "^2.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b6870e90be11bf8ed695003b63b7f0b2ca0a4dea",
+    "tarball": "https://registry.npmjs.org/nativescript-speech-recognition/-/nativescript-speech-recognition-1.1.0.tgz"
+  },
+  "gitHead": "213ff7891799b033a0de12def1871c4cc1b21a3c",
+  "homepage": "https://github.com/EddyVerbruggen/nativescript-speech-recognition",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "iOS",
+    "Siri",
+    "Speech to text",
+    "Speech",
+    "Recognition",
+    "Voice"
+  ],
+  "license": "MIT",
+  "main": "speech-recognition",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "nativescript-speech-recognition",
+  "nativescript": {
+    "platforms": {
+      "android": "2.5.0",
+      "ios": "2.5.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyVerbruggen/nativescript-speech-recognition.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns run ios --emulator",
+    "demo.ios.device": "npm run preparedemo && cd demo && tns run ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-speech-recognition && tns plugin add .. && tns install",
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+    "test.android": "cd demo && tns test android",
+    "test.ios": "cd demo && tns test ios --emulator",
+    "test.ios.device": "cd demo && tns test ios"
+  },
+  "typings": "index.d.ts",
+  "version": "1.1.0"
+}
